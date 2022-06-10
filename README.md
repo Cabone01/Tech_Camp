@@ -1,2 +1,1 @@
-# GA-Tech
-This is my github test
+# GA-Tech Bootcamp Repo
