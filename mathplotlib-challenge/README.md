@@ -1,4 +1,4 @@
-# Mouse Studies Observations
+# Mice Studies
 While working on this dataframe there are some things that I noticed in it. One that I noticed was that the rats tested on 
 was nearly divided based on their sex. It is only off by a percent, but it's neat to see that they were clearly trying to see 
 the effects the drug regimen had on each sex. Another was that on the box plot for Infubinol their is one somewhat far 
