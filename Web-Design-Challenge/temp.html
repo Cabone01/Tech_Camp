@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>
+            LatVs.Temp
+        </title>
+
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"         
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"  crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="navStyle.css">
+    <link rel="stylesheet" href="headerStyles.css">
+    <link rel="stylesheet" href="box.css">
+
+    <body>
+            <header>
+                <h1>Latitude</h1>
+                    <ul class="nav nav-tabs primaryNav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item active" href="temp.html">Max Temperature</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="comparison.html">Comparison</a></li>
+                    <li class="nav-item"><a class="nav-link" href="data.html">Data</a></li>
+                    </ul>
+
+                    <div class="dropdown show secondaryNav">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="index.html">Home</a>
+                          <a class="dropdown-item active" href="temp.html">Max Temperature</a>
+                          <a class="dropdown-item" href="humidity.html">Humidity</a>
+                          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                          <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                          <a class="dropdown-item" href="comparison.html">Comparison</a>
+                          <a class="dropdown-item" href="data.html">Data</a>
+                        </div>
+            </header>
+
+            <br>
+            <div class = "container-fluid">
+                <div class = "row">
+                        <div class = "col-7 p-3 px-md-5 border whitebox">
+                            <h2>About the Graph: Latitude vs. Max temperature</h2>
+                            <br>
+                            <center>
+                            <a href = "Resources/assets/images/Fig1.png">
+                                <img src="Resources/assets/images/Fig1.png" title = "Latitude vs. Max Temperature" alt="Latitude vs. Max Temperature" width = "700">
+                            </a>
+                            </center>
+                            <br>
+                            <p>
+                                In the plot above as you can see we are seeing how the max temperature of the city changes as we move towards and away from the equator.
+                                We can see that the maximum temperature has signs of being a bell curve. The reason is that the maximum temperature increases from both directions 
+                                as we approach the equator.
+                            </p>
+                        </div>
+                        <div class = "col-1">
+                        </div>
+                        <div class = "col-4 p-3 border whitebox">
+                            <h3>Graphs</h3>
+                            <br>
+                            <a>
+                                <img src="Resources/assets/images/Fig1.png" title = "Latitude vs. Max Temperature" alt="Latitude vs. Max Temperature" width = "260">
+                            </a>
+                            <a href = "humidity.html">
+                                <img src="Resources/assets/images/Fig2.png" title = "Latitude vs. Humidity" alt="Latitude vs. Humidity" width = "260">
+                            </a>
+                            <br><br>
+                            <a href = "cloudiness.html">
+                                <img src="Resources/assets/images/Fig3.png" title = "Latitude vs. Cloudiness" alt="Latitude vs. Cloudiness" width = "260">
+                            </a>
+                            <a href = "wind.html">
+                                <img src="Resources/assets/images/Fig4.png" title = "Latitude vs. Wind Speed" alt="Latitude vs. Wind Speed" width = "260">                     
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
