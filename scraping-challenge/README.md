@@ -1,1 +1,3 @@
-
+# Scraping 
+For the first jupyter notebook I web scraped a website about mars. The things I scraped were the article titles and their teasers/previews. Once I got all into their own dictionary and into a list, I then added every article title and preview into MongoDB.  
+Then for the next notebook, I scraped a website that contained data about mars. I converted the scraped data into a data frame to run some tests on it. One of the things I was able to learn is that mar's minimum average temperature for each month is very low. On the third month for mars, it reached nearly -85 celsius while the highest minimum was on month 8 at -68 celsius. I then looked at the average pressure of each month of mars. I was surprised to see how the pressure would have a clear wave of change over the months similarly to how something like temperature changes.
